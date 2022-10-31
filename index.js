@@ -9,5 +9,4 @@ fetch(url)
     .then((data) => {
         output1.innerHTML = `<p>${data.message}</p>`
         output2.innerHTML = `<p>${data.success}</p>`
-
     })
